@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+}
+.container #gameBoard {
+  padding: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.container #gameBoard .cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  font-size: 30px;
+}
+
+.color {
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
